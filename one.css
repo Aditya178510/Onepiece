@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+}
+body{
+    background-image: url(./bg.jpg);
+ background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between; 
+    width: 100%;
+    min-height: 60px;
+    background-color: whitesmoke;
+}
+.names a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 28px;
+    width: 25%;
+    font-weight: 530;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .3s ease;
+}
+.names a:hover{
+    color: green;
+    text-decoration: underline black 5px;
+}
+@media screen and (max-width:781px) {
+    .names a{
+        display: grid;
+        grid-row: auto;
+        width: 100%;
+        min-height: 60px;
+        background-color: whitesmoke;
+    }
+}
+#about p{
+    margin-top: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+}
+#about h1{
+    text-align: left;
+    text-decoration: underline 8px rgb(63, 63, 63);
+    color: red;
+    font-size: 40px;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    opacity: 100%;
+    background-image: url(./wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height:500px ;
+    background-position: center;
+    width: 100%;
+}
+.ch{
+    display: grid;
+    flex-wrap: wrap;
+    grid-column: auto;
+    margin-top: 10px;
+}
+.ch img{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.ch p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.ch h2{
+    color: rgb(255, 115, 0);
+    text-decoration:wavy red underline;
+    margin-left: 10px;
+}
+#Characters h1{
+    font-size: 40px;
+    text-decoration: underline 8px rgb(63, 63, 63);
+    color: rgb(255, 0, 0);
+}
+#Arcs h1{
+    font-size: 40px;
+    text-decoration: underline 8px rgb(63, 63, 63);
+    color: rgb(255, 0, 0);
+}
+.arcs{
+    margin-top: 20px;
+}
+.arcs td{
+    text-align: center;
+color: rgb(0, 0, 0);
+font-size: 20px;
+}
+table {
+    background-color: pink;
+    border-collapse: collapse;
+  }
+
+  th,td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #fffbfbb0;
+  }
+@media screen and (max-width: 416px)
+{
+    .arcs td{
+        text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    }
+}
+
+#Watch h1{
+    margin-top: 10px;
+    font-size: 40px;
+    text-decoration: underline 8px rgb(63, 63, 63);
+    color: rgb(255, 0, 0);
+}
+.w {
+    margin-top: 10px;
+    font-size: 40px;
+    text-decoration: underline 8px rgb(255, 0, 0);
+    color: rgb(21, 255, 0);
+}
+.watch a{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-decoration: underline 2px rgb(0, 0, 0);
+}
+#Manga h1{
+    margin-top: 10px;
+    font-size: 40px;
+    text-decoration: underline 8px rgb(63, 63, 63);
+    color: rgb(255, 0, 0);
+}
+
+.manga a{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-decoration: underline 2px rgb(0, 0, 0);
+}
